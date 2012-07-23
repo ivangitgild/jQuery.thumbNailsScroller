@@ -14,24 +14,24 @@ Set-Up Procedure:
 <br />
 <p>
 <div id="thumbscroller">
-    <ul>
-  			<li><a href="#">
-					  <img src="images/image_01_thumb.jpg">
-					</a>
-				</li>
-				<li><a href="#">
-					  <img src="images/image_02_thumb.jpg">
-					</a>
-				</li>
-				<li><a href="#">
-					  <img src="images/image_03_thumb.jpg">
-					</a>
-				</li>
-				<li><a href="#">
-					  <img src="images/image_04_thumb.jpg">
-					</a>
-   </ul>
- </div>
+    &lt;ul&gt;
+  			&lt;li&gt;&lt;a href="#"&gt;
+					  &lt;img src="images/image_01_thumb.jpg"&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;
+					  &lt;img src="images/image_02_thumb.jpg"&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;
+					  &lt;img src="images/image_03_thumb.jpg"&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;
+					  &lt;img src="images/image_04_thumb.jpg"&gt;
+					&lt;/a&gt;
+   &lt;/ul&gt;
+ &lt;/div&gt;
 </p>
 <br />
  2. The Jquery

@@ -11,7 +11,8 @@ Easy to setup.
 
 Set-Up Procedure:
  1. The HTML COde
- <div id="thumbscroller">
+<pre> 
+<div id="thumbscroller">
     <ul>
   			<li><a href="#">
 					  <img src="images/image_01_thumb.jpg">
@@ -30,6 +31,7 @@ Set-Up Procedure:
 					</a>
    </ul>
  </div>
+</pre>
 
  2. The Jquery
     (function($){

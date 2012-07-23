@@ -100,20 +100,24 @@ while(curDate-date<ms);};return this.unbind('click').click(_initialize);};})(jQu
 		addStyles: function(){
 			var Attrib = this.Attrib;
 			var mWidth = Math.ceil(Attrib['width']/2);
+			var msWidth = mWidth + Attrib['tWidth'];
+			var mHeight = Math.ceil(Attrib['height']);
 			var cursorHeight = $("#Tnext").height() / 2;
 			if(this.o['width']!='') {
 				mWidth = parseInt(this.o['width']);	
 				mHeight = parseInt(this.o['container']);
+				msWidth = mHeight;
 			}else if(mWidth > 1000) {
 				mWidth = mWidth - 200;
 			}
-			$(this.obj).css({height: (Attrib['height'] + 20), width: Math.ceil( mHeight ), position: 'relative'});
+			$(this.obj).css({height: (Attrib['height'] + 20), width: Math.ceil( msWidth ), position: 'relative'});
 			$("#myScroll ul").css({
 				width: Attrib['width']+'px'
 			});
 			$(".jspContainer").css({
 				height: (Attrib['height']+10)+'px !important'
 			});
+			
 			$("#myScroll").css({width: mWidth});
 			$(".jspContainer").css({width: mWidth, height: (Attrib['height']+10)});
 			$(".jspPane").css({padding: 0, width: mWidth, left: 0});
@@ -154,7 +158,7 @@ while(curDate-date<ms);};return this.unbind('click').click(_initialize);};})(jQu
 			if(args != 'stop') {
 				setTimeout(function(){
 				$nxt.trigger('click');
-				},6000);
+				},5000);
 				 this.auto = setInterval(this.autoPlay,5000);
 			}else{
 				clearInterval(this.auto)

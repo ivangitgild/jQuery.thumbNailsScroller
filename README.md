@@ -17,16 +17,16 @@ Set-Up Procedure:
     &nbsp;&lt;ul&gt;<br />
   	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
 		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
-	&nbsp;&lt;/a&gt;<br />
+	&nbsp;&lt;/a&gt;&nbsp;&lt;/li&gt;<br />
 	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
 		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
-	&nbsp;&lt;/a&gt;<br />
+	&nbsp;&lt;/a&gt;&nbsp;&lt;/li&gt;<br />
 	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
 		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
-	&nbsp;&lt;/a&gt;<br />
+	&nbsp;&lt;/a&gt;&nbsp;&lt;/li&gt;<br />
 	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
 		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
-	&nbsp;&lt;/a&gt;<br />
+	&nbsp;&lt;/a&gt;&nbsp;&lt;/li&gt;<br />
    &lt;/ul&gt;
  &lt;/div&gt;
 </p>

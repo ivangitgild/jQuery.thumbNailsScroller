@@ -11,7 +11,7 @@ Easy to setup.
 
 Set-Up Procedure:
  1. The HTML COde
-<pre> 
+<p>
 <div id="thumbscroller">
     <ul>
   			<li><a href="#">
@@ -31,18 +31,18 @@ Set-Up Procedure:
 					</a>
    </ul>
  </div>
-</pre>
+</p>
 
  2. The Jquery
-    (function($){
+    <br/>(function($){
   	  $(document).ready(function(){
 		  	$('#thumbscroller').myThumbScroll();
 		  });
     })
    Options: Scroller WIdth, => width, Container Width, => container, Ligthbox Feature => lightbox: true
    Code with Options:
-    $(document).ready(function(){
+   <br /> $(document).ready(function(){
   	  	$('#thumbscroller').myThumbScroll({width: '870',container: '950', lightbox: true});
 		  });
-
+ <br />
  You can customize the styles if you want.

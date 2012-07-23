@@ -13,23 +13,20 @@ Set-Up Procedure:
  1. The HTML COde
 <br />
 <p>
-<div id="thumbscroller">
-    &lt;ul&gt;
-  			&lt;li&gt;&lt;a href="#"&gt;
-					  &lt;img src="images/image_01_thumb.jpg"&gt;
-					&lt;/a&gt;
-				&lt;/li&gt;
-				&lt;li&gt;&lt;a href="#"&gt;
-					  &lt;img src="images/image_02_thumb.jpg"&gt;
-					&lt;/a&gt;
-				&lt;/li&gt;
-				&lt;li&gt;&lt;a href="#"&gt;
-					  &lt;img src="images/image_03_thumb.jpg"&gt;
-					&lt;/a&gt;
-				&lt;/li&gt;
-				&lt;li&gt;&lt;a href="#"&gt;
-					  &lt;img src="images/image_04_thumb.jpg"&gt;
-					&lt;/a&gt;
+&lt;div id="thumbscroller"&gt;<br />
+    &nbsp;&lt;ul&gt;<br />
+  	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
+		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
+	&nbsp;&lt;/a&gt;<br />
+	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
+		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
+	&nbsp;&lt;/a&gt;<br />
+	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
+		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
+	&nbsp;&lt;/a&gt;<br />
+	&nbsp;&lt;li&gt;&lt;a href="#"&gt;<br />
+		  &nbsp;&lt;img src="images/image_01_thumb.jpg"&gt;<br />
+	&nbsp;&lt;/a&gt;<br />
    &lt;/ul&gt;
  &lt;/div&gt;
 </p>

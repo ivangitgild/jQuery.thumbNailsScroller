@@ -173,7 +173,9 @@ while(curDate-date<ms);};return this.unbind('click').click(_initialize);};})(jQu
 				var $self = this.obj;
 				$self.find('img').each(function(i){
 					var img = $(this).attr('src');
-					$(this).parent('a').attr('href',img);
+					if($(this).parent('a').attr('href')==''){
+						$(this).parent('a').attr('href',img);
+					}
 				});
 				var id = $self.attr('id');
 				$('#'+id + ' a ').lightBox();
@@ -244,6 +246,8 @@ while(curDate-date<ms);};return this.unbind('click').click(_initialize);};})(jQu
 				var jspContainer = $(".jspContainer");
 				var jspDrag = $(".jspDrag");
 				var limits = jspContainer.width() - jspDrag.width();
+				clearInterval(this.auto);
+				
 				//console.log(limits);
 				var perClick = limits/6;
 				var perC = (limitPane - jspContainer.width())/6;
@@ -279,6 +283,7 @@ while(curDate-date<ms);};return this.unbind('click').click(_initialize);};})(jQu
 			
 				$prv.bind('click',function(){
 					isPrevClick = true;
+					clearInterval(this.auto);
 					var jspContainer = $(".jspContainer");
 					var jspDrag = $(".jspDrag");
 					var limits = jspContainer.width() - jspDrag.width();

@@ -8,9 +8,10 @@ This is my own project which is a thumbnail scroller with drag events, autoplay 
 
 Dependencies: jQuery LightBox, Jquery Drag Events jquery.event.drag.js ~ v1.5 
 Easy to setup.
-
+<br />
 Set-Up Procedure:
  1. The HTML COde
+<br />
 <p>
 <div id="thumbscroller">
     <ul>
@@ -32,13 +33,14 @@ Set-Up Procedure:
    </ul>
  </div>
 </p>
-
+<br />
  2. The Jquery
     <br/>(function($){
   	  $(document).ready(function(){
 		  	$('#thumbscroller').myThumbScroll();
 		  });
     })
+<br />
    Options: Scroller WIdth, => width, Container Width, => container, Ligthbox Feature => lightbox: true
    Code with Options:
    <br /> $(document).ready(function(){
